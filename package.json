@@ -1,15 +1,16 @@
 {
   "name": "react-native-connection-info",
-  "version": "0.1.0",
+  "version": "0.0.0-semantically-released",
   "description": "Higher order component for React Native to detect network connection state.",
   "main": "src/index.js",
   "scripts": {
     "commit": "git-cz",
+    "semantic-release": "semantic-release pre && npm publish && semantic-release post",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/zaromev/react-native-connection-info.git"
+    "url": "https://github.com/zaromev/react-native-connection-info.git"
   },
   "keywords": [
     "react-native",
@@ -26,7 +27,8 @@
     "commitizen": "^2.8.6",
     "cz-conventional-changelog": "^1.2.0",
     "react": "15.2.1",
-    "react-native": "0.31.0"
+    "react-native": "0.31.0",
+    "semantic-release": "^4.3.5"
   },
   "config": {
     "commitizen": {

@@ -24,11 +24,11 @@
   },
   "homepage": "https://github.com/zaromev/react-native-connection-info#readme",
   "devDependencies": {
-    "commitizen": "^2.8.6",
-    "cz-conventional-changelog": "^1.2.0",
+    "commitizen": "2.8.6",
+    "cz-conventional-changelog": "1.2.0",
     "react": "15.2.1",
     "react-native": "0.31.0",
-    "semantic-release": "^4.3.5"
+    "semantic-release": "4.3.5"
   },
   "config": {
     "commitizen": {

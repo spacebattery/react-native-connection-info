@@ -1,0 +1,28 @@
+{
+  "name": "react-native-connection-info",
+  "version": "0.1.0",
+  "description": "Higher order component for React Native to detect network connection state.",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zaromev/react-native-connection-info.git"
+  },
+  "keywords": [
+    "react-native",
+    "network",
+    "NetInfo"
+  ],
+  "author": "Zaro Megagenta <zaro.megagenta@gmail.com> (https://github.com/zaromev)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zaromev/react-native-connection-info/issues"
+  },
+  "homepage": "https://github.com/zaromev/react-native-connection-info#readme",
+  "devDependencies": {
+    "react": "15.2.1",
+    "react-native": "0.31.0"
+  }
+}

@@ -4,6 +4,7 @@
   "description": "Higher order component for React Native to detect network connection state.",
   "main": "src/index.js",
   "scripts": {
+    "commit": "git cz",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -22,7 +23,14 @@
   },
   "homepage": "https://github.com/zaromev/react-native-connection-info#readme",
   "devDependencies": {
+    "commitizen": "^2.8.6",
+    "cz-conventional-changelog": "^1.2.0",
     "react": "15.2.1",
     "react-native": "0.31.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "node_modules/cz-conventional-changelog"
+    }
   }
 }

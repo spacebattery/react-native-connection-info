@@ -52,3 +52,20 @@ MyComponent.propTypes = {
 
 export default withConnection(MyComponent);
 ```
+
+### Redux Wrapped Instance
+
+Usage with redux is supported by default. 
+
+This section is **only** used if you need to reference the wrapped instance using [`getWrappedInstance()`](https://github.com/reactjs/react-redux/blob/master/docs/api.md#getwrappedinstance-reactcomponent) when using `react-redux`'s `connect()`. This component uses `{ withRef: true }`.
+
+#### Usage
+
+```
+// instead of importing from 'react-native-connection-info'
+// import { withConnection, connectionShape } from 'react-native-connection-info';
+// just add /redux
+import { withConnection, connectionShape } from 'react-native-connection-info/redux';
+```
+
+The rest is the same as in the first [example](#examples).

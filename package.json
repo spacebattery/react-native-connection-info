@@ -4,6 +4,7 @@
   "description": "Higher order component for React Native to detect network connection state.",
   "main": "src/index.js",
   "scripts": {
+    "precommit": "npm run lint",
     "commit": "git-cz",
     "lint": "eslint src",
     "semantic-release": "semantic-release pre && npm publish && semantic-release post"
@@ -46,6 +47,7 @@
       "path": "node_modules/cz-conventional-changelog"
     },
     "ghooks": {
+      "pre-commit": "npm run lint",
       "commit-msg": "validate-commit-msg"
     }
   }

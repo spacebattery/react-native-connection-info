@@ -19,6 +19,13 @@ This is a boolean value that indicates internet connectivity status (see the `Ne
 npm install --save react-native-connection-info
 ```
 
+#### Android
+Make sure to also [include permissions](https://facebook.github.io/react-native/docs/netinfo.html#android) on Android. Add the following line to your `AndroidManifest.xml`
+
+```
+<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+```
+
 ### Examples
 
 ```

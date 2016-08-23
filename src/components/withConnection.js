@@ -34,7 +34,7 @@ const withConnection = ComposedComponent => class extends React.Component {
 
   render() {
     return (
-      <ComposedComponent {...this.props} connection={{...this.state}} />
+      <ComposedComponent {...this.props} connection={{ ...this.state }} />
     );
   }
 };

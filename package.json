@@ -39,8 +39,8 @@
     "validate-commit-msg": "2.7.0"
   },
   "peerDependencies": {
-    "react": "15.2.1",
-    "react-native": "0.31.0"
+    "react": ">=0.14",
+    "react-native": ">=0.4"
   },
   "config": {
     "commitizen": {

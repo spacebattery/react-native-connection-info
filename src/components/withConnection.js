@@ -16,14 +16,14 @@ const withConnection = ComposedComponent => class extends React.Component {
       this.handleIsConnected(isConnected);
     });
     NetInfo.isConnected.addEventListener(
-      'change',
+      'connectionChange',
       this.handleIsConnected
     );
   }
 
   componentWillUnmount() {
     NetInfo.isConnected.removeEventListener(
-      'change',
+      'connectionChange',
       this.handleIsConnected
     );
   }
